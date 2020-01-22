@@ -1,0 +1,23 @@
+.chef {
+  padding: 20px 0 20px 120px;
+  background-color: #f6f6f6;
+}
+.chef__wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.chef__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 300px;
+}
+.chef__titl {
+  font-size: 36px;
+  font-weight: 300;
+}
+.chef__name {
+  font-size: 38px;
+  font-weight: 700;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__navigation">
+          <div class="header__navigation_logo">
+            <a href="index.html" class="header__logo">
+              <img
+                alt="logo"
+                src="./images/RESTUARANT.png"
+                sizes="154px"
+                height="154"
+              />
+            </a>
+          </div>
+          <ul class="header__navigation_navigation">
+            <li class="header__li"><a href="index.html">home</a></li>
+            <li class="header__li"><a href="#">about</a></li>
+            <li class="header__li"><a href="index__1.html">dishes</a></li>
+            <li class="header__li"><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <form class="form js-form">
+      <section>
+        <h2>В Наличае</h2>
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" name="size" value="available" checked />
+              в наличае</label
+            >
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="size" value="available" checked />
+              закончились</label
+            >
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="size" value="17" checked />
+              17"</label
+            >
+          </li>
+        </ul>
+      </section>
+
+      <button type="submit">Filter</button>
+      <button type="reset">Clear</button>
+    </form>
+
+    <div class="container">
+      <div class="dish-grid"></div>
+    </div>
+
+    <script src="js/dish.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subheader__logo {
+  width: 154px;
+}
+.subheader__logo img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+.subheader__phone {
+  display: block;
+  color: rgba(22, 20, 21, 0.8);
+  font-size: 18px;
+  font-weight: 700;
+}
+.subheader__phone:hover {
+  color: #00000021;
+  text-decoration: none;
+}
+.subheader__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

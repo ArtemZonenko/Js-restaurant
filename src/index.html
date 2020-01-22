@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Webpack Demo</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container">
+        <nav class="header__navigation">
+          <div class="header__navigation_logo">
+            <a href="index.html" class="header__logo">
+              <img
+                alt="logo"
+                src="./images/RESTUARANT.png"
+                sizes="154px"
+                height="154"
+              />
+              <!-- <img src="" alt="" srcset="" /> -->
+              <!-- <img src="./images/RESTUARANT.png" alt="" srcset="" /> -->
+            </a>
+          </div>
+          <ul class="header__navigation_navigation">
+            <li class="header__li"><a href="index.html">home</a></li>
+            <li class="header__li"><a href="#">about</a></li>
+            <li class="header__li"><a href="#">dishes</a></li>
+            <li class="header__li"><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="promo">
+      <div class="container">
+        <section class="subheader">
+          <div class="subheader__official">
+            <a href="tel:+380995213777 " class="subheader__phone"
+              >+38 099 521 37 77</a
+            >
+            <button class="button" data-action="openModalReserv">
+              reservation
+            </button>
+          </div>
+
+          <a href="#" class="subheader__logo">
+            <img
+              sizes="154px"
+              src="images/RESTUARANT.png"
+              alt="logo"
+              height="154"
+            />
+          </a>
+
+          <div class="subheader__contacts">
+            <a href="tel:+380995213777 " class="subheader__phone"
+              >+38 099 521 37 77</a
+            >
+            <button class="button js-open-modal">заказать звонок</button>
+          </div>
+        </section>
+        <div class="promo__wrapper">
+          <h1 class="promo__header">Food Is A Hero</h1>
+          <h2 class="promo__subheader">Signature Cuisine and Bar</h2>
+
+          <div class="promo__icons">
+            <div class="pomo__icon">
+              <img src="icons/main_screen/ location.png" alt="location" />Kyiv,
+              20 Sichovykh Striltsiv Street
+            </div>
+            <div class="pomo__icon">
+              <img src="icons/main_screen/clock.png" alt="clock" />08:00 - 00:00
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <div class="container">
+        <section class="chef">
+          <div class="chef__wrapper">
+            <div class="chef__info">
+              <h2 class="chef__titl">
+                Brand-chef <br />
+                of the restarant
+              </h2>
+              <h2 class="chef__name">Andre Lombardi</h2>
+              <p class="chef__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in
+                culpa repudiandae adipisci expedita similique, a deserunt
+                repellendus beatae accusamus. Quaerat soluta quasi sed
+                blanditiis earum. Dolorem, voluptate exercitationem! A!
+              </p>
+            </div>
+            <img
+              src="./images/chef.jpg"
+              alt="chef"
+              class="chef__img"
+              width="410"
+              height="580"
+            />
+          </div>
+        </section>
+      </div>
+
+      <section class="consultation">
+        <div class="container">
+          <h2 class="title title_left">
+            event consultation
+          </h2>
+          <div class="consultation__descr">
+            fill out the application form
+          </div>
+          <form class="feed-form" action="#">
+            <input name="name" required placeholder="Ваше имя" type="text" />
+            <input
+              name="phone"
+              required
+              placeholder="Ваш телефон"
+              type="number"
+            />
+            <input
+              name="email"
+              required
+              placeholder="Ваш E-mail"
+              type="email"
+            />
+
+            <button class="button button_submit">
+              request a consultation
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="catalog">
+        <div class="container">
+          <h2 class="title">Каталог блюд</h2>
+
+          <a href="index__1.html" class="title title_center">в наличае</a>
+
+          <ul class="catalog__tabs" data-action="catalog__tabs">
+            <!-- <li class="catalog__tab catalog__tab_active">
+              <div>Завтраки</div>
+            </li>
+            <li class="catalog__tab"><div>Обеды</div></li>
+            <li class="catalog__tab"><div>Ужины</div></li> -->
+
+            <li class="catalog__tab">
+              <a href="#" class="catalog__tab catalog__tab_active">Завтраки</a>
+            </li>
+            <li class="catalog__tab">
+              <a href="#" class="catalog__tab">Обеды</a>
+            </li>
+            <li class="catalog__tab">
+              <a href="#" class="catalog__tab">Ужины</a>
+            </li>
+          </ul>
+
+          <div class="catalog__content">
+            <!-- <ul class="post-feed"></ul> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <div class="container container__feedback">
+          <form id="feedback-form" class="feedback-form">
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Please leave you feedback"
+            ></textarea>
+            <button class="button button_submit" type="submit">
+              Отправить
+            </button>
+          </form>
+          <div class="feedback__titl">
+            <h2 class="feedback_info">Ждем ваш отзыв</h2>
+            <p class="feedback__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              reiciendis odio nesciunt amet soluta voluptatem ipsam sequi
+              perferendis porro iste.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footers">
+      <!-- <div class="footer__map"></div> -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5082.67622611188!2d30.496555534571808!3d50.43480250331772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfb82ba2be5f%3A0xc24d87cb5338f36f!2sEPAM%20Systems!5e0!3m2!1sru!2sua!4v1578669127001!5m2!1sru!2sua"
+        width="100%"
+        height="600"
+        frameborder="0"
+        style="border:0;"
+        allowfullscreen=""
+      ></iframe>
+      <div class="footers__info">
+        <address class="footers__addr">
+          Киев, вулиця Сім'ї Прахових, 54,
+        </address>
+        <a class="footers__phone" href="tel:+380995213777 ">38 099 521 37 77</a>
+        <div class="footers__social">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footers__social-item"
+            ><img src="icons/facebook.svg" alt="facebook"
+          /></a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footers__social-item"
+            ><img src="icons/instagram.svg" alt="instagram"
+          /></a>
+          <a
+            href="https://www.pinterest.com/"
+            target="_blank"
+            class="footers__social-item"
+            ><img src="icons/pinterest.svg" alt="pinterest"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <div class="modal__close" data-action="modal-close-mouse">&times</div>
+        <div class="modal__subtitle">Просто заполните форму заявки</div>
+        <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+        <form class="feed-form" action="#">
+          <input name="name" required placeholder="Ваше имя" type="text" />
+          <input
+            name="phone"
+            required
+            placeholder="Ваш телефон"
+            type="number"
+          />
+          <input name="email" required placeholder="Ваш E-mail" type="email" />
+
+          <button class="button button_submit">request a consultation</button>
+          <button
+            class="button button_close"
+            data-action="close-modal-reservation"
+          >
+            Close
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="backdropReserv">
+      <div class="modalReserv">
+        <div
+          class="modal__close__reserv"
+          data-action="closeModalReservationMouse"
+        >
+          &times
+        </div>
+        <div class="modal__subtitle">Просто заполните форму заявки</div>
+        <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+        <!-- <form class="feed-form" action="#">
+          <input name="name" required placeholder="Ваше имя" type="text" />
+          <input
+            name="phone"
+            required
+            placeholder="Ваш телефон"
+            type="number"
+          />
+          <input name="email" required placeholder="Ваш E-mail" type="email" />
+
+          <button class="button button_submit">request a consultation</button> -->
+        <button class="button button_close" data-action="closeModalReservation">
+          Close
+        </button>
+        <!-- </form> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="dish-grid"><h2>Блюда к заказу</h2></div>
+    </div>
+    <div class="container">
+      <div class="image-gallery js-image-gallery"></div>
+    </div>
+
+    <!-- <img src="./images/preview-22.jpg" alt=""> -->
+    <!-- <div class="backdrop">
+      <div class="modal">
+        <div class="modal__close" data-action="modal-close-mouse">&times</div>
+        <div class="modal__subtitle">Просто заполните форму заявки</div>
+        <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+        <form class="feed-form" action="#">
+          <input name="name" required placeholder="Ваше имя" type="text" />
+          <input
+            name="phone"
+            required
+            placeholder="Ваш телефон"
+            type="number"
+          />
+          <input name="email" required placeholder="Ваш E-mail" type="email" />
+
+          <button class="button button_submit">request a consultation</button>
+          <button
+            class="button button_close"
+            data-action="close-modal-reservation"
+          >
+            Close
+          </button>
+        </form>
+      </div>
+    </div> -->
+  </body>
+</html>

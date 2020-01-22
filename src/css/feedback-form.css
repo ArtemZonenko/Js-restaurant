@@ -1,0 +1,24 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.feedback-form textarea {
+  width: 100%;
+  resize: none;
+  font: inherit;
+}
+
+.container__feedback {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.feedback__text{
+    padding: 16px;
+}
+
+.feedback__titl{
+    align-items: center;
+}
