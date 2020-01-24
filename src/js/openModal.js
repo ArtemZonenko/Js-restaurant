@@ -7,23 +7,23 @@ const closeModalMouseClose = document.querySelector(
   'div[data-action="modal-close-mouse"]',
 );
 
-openModalBtn.addEventListener('click', handleClickOpenReservation);
-closeModalBtn.addEventListener('click', handleClickCloseReservation);
-closeModalMouseClose.addEventListener('click', handleClickCloseMouse);
+openModalBtn.addEventListener('click', handleClickOpenPhone);
+closeModalBtn.addEventListener('click', handleClickClosePhone);
+closeModalMouseClose.addEventListener('click', handleClickCloseMousePhone);
 
-function handleClickOpenReservation() {
+function handleClickOpenPhone() {
   page.classList.add('show-modal');
 
   window.addEventListener('keydown', handleModalEckDown);
 }
 
-function handleClickCloseReservation() {
+function handleClickClosePhone() {
   page.classList.remove('show-modal');
 
   window.removeEventListener('keydown', handleModalEckDown);
 }
 
-function handleClickCloseMouse() {
+function handleClickCloseMousePhone() {
   page.classList.remove('show-modal');
 
   window.removeEventListener('keydown', handleModalEckDown);
@@ -33,6 +33,6 @@ function handleModalEckDown(evt) {
   const key = evt.code;
 
   if (key === 'Escape') {
-    handleClickCloseReservation();
+    handleClickClosePhone();
   }
 }

@@ -6,6 +6,7 @@
   text-transform: uppercase;
 }
 .title_left {
+  padding-left: 10px;
   color: #fff;
   font-size: 36px;
   text-align: left;

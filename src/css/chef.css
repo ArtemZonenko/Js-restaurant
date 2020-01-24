@@ -1,23 +1,44 @@
 .chef {
-  padding: 20px 0 20px 120px;
+  padding: 20px 0 20px 0;
   background-color: #f6f6f6;
 }
 .chef__wrapper {
   margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
 }
 .chef__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  max-width: 300px;
+  min-width: 280px;
 }
 .chef__titl {
+  text-align: center;
   font-size: 36px;
   font-weight: 300;
 }
 .chef__name {
   font-size: 38px;
   font-weight: 700;
+}
+.chef__text {
+  padding: 0 20px;
+}
+
+@media (min-width: 600px) {
+  .chef {
+    padding: 20px 0 20px 120px;
+  }
+  .chef__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .chef__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 949px) {
+  .chef {
+    padding: 20px 20px 20px 20px;
+  }
 }

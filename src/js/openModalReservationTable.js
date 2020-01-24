@@ -1,15 +1,15 @@
 const page = document.querySelector('.page');
-const openModalReserv = document.querySelector('button[data-action="openModalReserv"]');
+const openModalReservation = document.querySelector('button[data-action="openModalReserv"]');
 const closeModalReservation = document.querySelector(
-  'button[data-action="closeModalReservation]',
+  'button[data-action="closeModalReservation"]',
 );
 const closeModalReservationMouse = document.querySelector(
   'div[data-action="closeModalReservationMouse"]',
 );
 
-openModalReserv.addEventListener('click', handleClickOpenReservation);
-// closeModalReservation.addEventListener('click', handleClickCloseReservation);
-closeModalReservationMouse.addEventListener('click', handleClickCloseMouse);
+openModalReservation.addEventListener('click', handleClickOpenReservation);
+closeModalReservation.addEventListener('click', handleClickCloseReservation);
+closeModalReservationMouse.addEventListener('click', handleClickCloseMouseReservation);
 
 function handleClickOpenReservation() {
   page.classList.add('show-modal-reserv');
@@ -23,7 +23,7 @@ function handleClickCloseReservation() {
   window.removeEventListener('keydown', handleModalEckDown);
 }
 
-function handleClickCloseMouse() {
+function handleClickCloseMouseReservation() {
   page.classList.remove('show-modal-reserv');
 
   window.removeEventListener('keydown', handleModalEckDown);

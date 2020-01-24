@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Demo</title>
+    <title>Restaurant</title>
   </head>
   <body class="page">
     <header class="header">
@@ -23,7 +23,21 @@
             </a>
           </div>
           <ul class="header__navigation_navigation">
-            <li class="header__li"><a href="index.html">home</a></li>
+            <li class="header__li">
+              <a href="index.html">home</a>
+              <ul class="header__submenu">
+                <li class="header__submenu-item">
+                  <a href="#">submenu-item</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">submenu-item</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">submenu-item</a>
+                </li>
+              </ul>
+            </li>
+
             <li class="header__li"><a href="#">about</a></li>
             <li class="header__li"><a href="#">dishes</a></li>
             <li class="header__li"><a href="#">contact</a></li>
@@ -97,7 +111,7 @@
               src="./images/chef.jpg"
               alt="chef"
               class="chef__img"
-              width="410"
+              width="310"
               height="580"
             />
           </div>
@@ -127,7 +141,7 @@
               type="email"
             />
 
-            <button class="button button_submit">
+            <button class="button button_submit_left">
               request a consultation
             </button>
           </form>
@@ -190,7 +204,6 @@
     </main>
 
     <footer class="footers">
-      <!-- <div class="footer__map"></div> -->
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5082.67622611188!2d30.496555534571808!3d50.43480250331772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfb82ba2be5f%3A0xc24d87cb5338f36f!2sEPAM%20Systems!5e0!3m2!1sru!2sua!4v1578669127001!5m2!1sru!2sua"
         width="100%"
