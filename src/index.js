@@ -1,7 +1,6 @@
 import './js/postFeed';
 import './js/image-gallery';
 
-
 import './css/libs/animate.css';
 import './css/libs/bootstrap-rebot.css';
 // import './css/libs/font.css'
@@ -28,3 +27,4 @@ import './js/openModal';
 import './js/clickCatalog';
 import './js/feedback';
 import './js/openModalReservationTable';
+import './js/timer';

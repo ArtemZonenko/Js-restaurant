@@ -32,6 +32,100 @@
   color: #c70101;
   cursor: pointer;
 }
+.feed-forms input {
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  color: #4b4b4b;
+  font-size: 14px;
+  font-weight: 300;
+}
+.reserv__date {
+  width: 300px;
+}
+
+.page.show-reserv-table .chairReserv {
+  display: flex;
+}
+
+.page.show-reserv-tableLeft .chairReservLeft {
+  display: flex;
+}
+
+.btr {
+  display: flex;
+}
+.table {
+  display: flex;
+}
+.chairReserv {
+  display: none;
+  position: absolute;
+  top: 71%;
+  left: 3%;
+  margin: 0;
+  user-select: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 36px;
+  color: #f44336;
+  padding: 8px;
+  background-color: #fff;
+  border: 4px solid #c70101;
+  border-radius: 2px;
+}
+
+.chairReservLeft {
+  display: none;
+  position: absolute;
+  top: 71%;
+  left: 25%;
+  margin: 0;
+  user-select: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 36px;
+  color: #f44336;
+  padding: 8px;
+  background-color: #fff;
+  border: 4px solid #c70101;
+  border-radius: 2px;
+}
+
+.round {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  background: mistyrose;
+  flex-direction: column;
+  cursor: pointer;
+}
+.chair {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  border: 10px solid #212121;
+  background-color: #009688;
+  cursor: pointer;
+}
+.chair-right {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  border: 10px solid #212121;
+  background-color: #009688;
+  cursor: pointer;
+}
 
 @media (min-width: 600px) and (max-width: 799px) {
   .page.show-modal-reserv .backdropReserv {
@@ -69,7 +163,6 @@
     cursor: pointer;
   }
 }
-
 
 @media (min-width: 800px) and (max-width: 1440px) {
   .modalReserv {

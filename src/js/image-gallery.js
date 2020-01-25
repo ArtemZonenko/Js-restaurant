@@ -1,7 +1,8 @@
+// ../images/preview-11.jpg
 const galleryItems = [
   {
     preview: '../images/preview-11.jpg',
-    fullview: '../images/fullview-11.jpg',
+    fullview: '../images/preview-11.jpg',
     alt: 'alt text 1',
   },
   {
