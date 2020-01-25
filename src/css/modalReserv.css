@@ -15,7 +15,7 @@
 }
 .modalReserv {
   position: absolute;
-  width: 290px;
+  width: 420px;
   min-height: 720px;
   padding: 16px;
   background-color: #f2f2f2;
@@ -82,7 +82,7 @@
   display: none;
   position: absolute;
   top: 71%;
-  left: 25%;
+  left: 41%;
   margin: 0;
   user-select: none;
   text-transform: uppercase;
