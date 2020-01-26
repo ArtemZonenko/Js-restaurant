@@ -2,20 +2,24 @@
   display: flex;
 }
 .timer {
-  width: 450px;
+  width: 280px;
   display: flex;
-  margin: 40px auto;
 }
+
+.feed-forms {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .field {
   text-align: center;
   justify-content: space-between;
-  display: flex;
   padding: 5px;
-  border: 1px solid #222222;
   margin: 0 auto;
 }
 .value {
-  font-size: 48px;
+  font-size: 20px;
   text-align: left;
 }
 .label {
@@ -35,18 +39,21 @@
 }
 .modalReserv {
   position: absolute;
-  width: 420px;
+  width: 290px;
   min-height: 720px;
   padding: 16px;
   background-color: #f2f2f2;
   border-radius: 2px;
-  padding: 38px 40px 40px 40px;
+  padding: 10px;
+}
+.inlabel {
+  margin: 0;
 }
 
 .modal__close__reserv {
   position: absolute;
   top: 0;
-  right: -40px;
+  right: 2px;
   font-size: 41px;
   line-height: 21px;
   color: #c70101;
@@ -56,7 +63,7 @@
   height: 50px;
   border-radius: 5px;
   background-color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   border: none;
   padding: 0 20px;
   color: #4b4b4b;
@@ -147,22 +154,45 @@
   cursor: pointer;
 }
 
-@media (min-width: 600px) and (max-width: 799px) {
-  .page.show-modal-reserv .backdropReserv {
+@media (min-width: 370px) and (max-width: 426px) {
+  .modal__close__reserv {
+    right: -30px;
+  }
+}
+
+@media (min-width: 600px) {
+  .timer {
+    width: 400px;
+  }
+
+  .value {
+    font-size: 36px;
+  }
+  \ .reservTable {
+    /* /* display: flex; */
+    align-items: center;
+  }
+
+  .reservPhoneName {
     display: flex;
   }
-  .backdropReserv {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 999;
-    background-color: rgba(0, 0, 0, 0.8);
+  .feed-forms {
+    display: flex;
   }
+
+  .feed-forms input {
+    margin-right: 6px;
+  }
+
+  .chairReserv {
+    top: 68%;
+    left: 19%;
+  }
+  .chairReservLeft {
+    top: 68%;
+    left: 51%;
+  }
+
   .modalReserv {
     position: absolute;
     width: 500px;
@@ -181,11 +211,5 @@
     line-height: 21px;
     color: #c70101;
     cursor: pointer;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 1440px) {
-  .modalReserv {
-    width: 700px;
   }
 }

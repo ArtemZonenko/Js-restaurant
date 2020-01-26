@@ -275,11 +275,6 @@
 
         <div class="timer" id="timer-1">
           <div class="field">
-            <span class="value" data-value="days">00</span>
-            <span class="label">Days</span>
-          </div>
-
-          <div class="field">
             <span class="value" data-value="hours">00</span>
             <span class="label">Hours</span>
           </div>
@@ -302,23 +297,27 @@
             <p><input name="reserv__date" type="date" value="2020-01-25" /></p>
 
             <label equiredf or="reserv__time">Выберете время</label>
-            <p><input type="time" /></p>
+            <p class="inlabel"><input type="time" /></p>
+          </div>
+          <div class="reservPhoneName">
+            <p class="inlabel">
+              <input type="text" placeholder="имя и фамилия" />
+            </p>
+
+            <input
+              name="phone"
+              required
+              placeholder="ваш телефон"
+              type="number"
+            />
           </div>
 
-          <p><input type="text" placeholder="имя и фамилия" /></p>
-
-          <input
-            name="phone"
-            required
-            placeholder="ваш телефон"
-            type="number"
-          />
           <p>
             <textarea
               name="atext"
               placeholder="Пожелания по брони"
               rows="4"
-              cols="35"
+              cols="30"
             ></textarea>
           </p>
 

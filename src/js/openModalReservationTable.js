@@ -52,11 +52,9 @@ clickTableLeft.addEventListener('click', handleClickTablrLeft);
 
 function handleClickTable() {
   page.classList.add('show-reserv-table');
-  console.log('hi');
 }
 
 function handleClickTablrLeft() {
   page.classList.add('show-reserv-tableLeft');
 }
-////
 
