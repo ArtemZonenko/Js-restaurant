@@ -35,13 +35,7 @@
   border: 4px solid #f44336;
   border-radius: 2px;
 }
-.card .imgDish {
-  /* margin-right: 16px; */
-}
 
-.imgDish {
-  /* margin: 0; */
-}
 .card .name {
   margin-top: 0;
   margin-bottom: 8px;

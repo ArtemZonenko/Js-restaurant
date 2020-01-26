@@ -1,5 +1,3 @@
-import './js/postFeed';
-import './js/image-gallery';
 
 import './css/libs/animate.css';
 import './css/libs/bootstrap-rebot.css';
@@ -23,8 +21,13 @@ import './css/modalReserv.css';
 import './css/image-gallery.css';
 
 import './js/dish';
+import './js/postFeed';
+
 import './js/openModal';
 import './js/clickCatalog';
 import './js/feedback';
 import './js/openModalReservationTable';
 import './js/timer';
+import './js/image-gallery';
+
+

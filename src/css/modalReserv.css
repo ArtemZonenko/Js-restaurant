@@ -1,6 +1,26 @@
 .page.show-modal-reserv .backdropReserv {
   display: flex;
 }
+.timer {
+  width: 450px;
+  display: flex;
+  margin: 40px auto;
+}
+.field {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 5px;
+  border: 1px solid #222222;
+  margin: 0 auto;
+}
+.value {
+  font-size: 48px;
+  text-align: left;
+}
+.label {
+  color: rgba(228, 18, 18, 0.979);
+}
 .backdropReserv {
   display: none;
   justify-content: center;
@@ -64,7 +84,7 @@
 .chairReserv {
   display: none;
   position: absolute;
-  top: 71%;
+  top: 75%;
   left: 3%;
   margin: 0;
   user-select: none;
@@ -81,8 +101,8 @@
 .chairReservLeft {
   display: none;
   position: absolute;
-  top: 71%;
-  left: 41%;
+  top: 75%;
+  left: 25%;
   margin: 0;
   user-select: none;
   text-transform: uppercase;
